@@ -14,9 +14,9 @@ without any baseline correction.
 
 The code to generate the video from the images is in im2vid.m. Please change line 2 in im2vid.m to point to your folder of 
 images corresponding to 20130523_H116_T-003. You can download the images folder corresponding to
-20130523_H116_T-003 from here .
-All of this corresponds to the movieName 20130523_H116_T003_z150 found here .
-The README is here 
+20130523_H116_T-003 from here () .
+All of this corresponds to the movieName 20130523_H116_T003_z150 found here ().
+The README is here ().
 which describes the 'z_150' experimental conditions for time series 3. The neuron locations can be found in  
 H116_z150_dfofOut(1).contours. Each cell describes the contours of the neurons. For my MATLAB figures, I just 
 assumed a 'mean' position for each neuron, so that I could draw the arrows.
