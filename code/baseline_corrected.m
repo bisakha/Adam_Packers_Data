@@ -1,3 +1,5 @@
+%%Baseline corrected files from Jordi Soriano
+
 myFolder = 'C:\Users\Bisakha Ray\Desktop\MAT_files_for_ANALYSIS\Analysis\_Details';
 if ~isdir(myFolder)
   errorMessage = sprintf('Error: The following folder does not exist:\n%s', myFolder);
