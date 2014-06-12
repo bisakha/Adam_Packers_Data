@@ -1,3 +1,5 @@
+%Authors: Bisakha Ray and Javier Orlandi
+
 % ImagesFolder=uigetdir;
 ImagesFolder = 'C:/Users/Bisakha Ray/Desktop/Connectomics_Data/20130303_H92_Tseries-001/20130303_H92_Tseries-001';
 jpegFiles = dir(strcat(ImagesFolder,'/*.tif'));
