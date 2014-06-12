@@ -10,7 +10,7 @@ The number of time points is 5400.
 2.Please change line 6 to the path to your .mat file. (Eg: H116_z150_dfofOut.mat). These are raw traces 
 without any baseline correction.
 
-3. The code for merging baseline corrected series from Jordi is in baseline_corrected.m
+3.The code for merging baseline corrected series from Jordi is in baseline_corrected.m
 
 The code to generate the video from the images is in im2vid.m. Please change line 2 in im2vid.m to point to your folder of 
 images corresponding to 20130523_H116_T-003. You can download the images folder corresponding to
