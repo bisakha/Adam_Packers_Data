@@ -78,7 +78,7 @@ box on;
     % this nested function is called every time the slider is clicked
 function sliderCallback(hObj,~)
 threshold = get(hObj,'Value') % slider value between 0 and 1
-      [r, c] = find(pval_mat> threshold);
+      [r, c] = find(pval_mat<= threshold);
       
       for i = 1:length(r)
 
